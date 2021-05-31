@@ -1,0 +1,29 @@
+{
+    "name": "nico-theme",
+    "displayName": "nico-theme",
+    "description": "My theme.",
+    "publisher": "nicolas-escandarani",
+    "author": {
+        "name": "Nicolas Escandarani"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#1b1b1b",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Escandarani-Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Escandarani-Theme-color-theme.json"
+            }
+        ]
+    }
+}
